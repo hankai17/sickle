@@ -2,6 +2,7 @@
 A Rust multi-thread asyn io lib
 
 ## 项目特点
+- 不使用await async的纯异步实现
 - 使用Rust闭包封装成任务 并基于回调的方式处理任务 代码清晰
 - 底层事件系统使用epoll ET多线程模式处理网络IO
 - 底层事件系统线程安全
