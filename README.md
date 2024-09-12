@@ -7,7 +7,6 @@ A Rust multi-thread asyn io lib
 - 底层事件系统使用epoll ET多线程模式处理网络IO
 - 底层事件系统线程安全
 - 仅支持linux平台
-- 了解更多: [mio](https://github.com/tokio-rs/mio)
 
 ## 特性
 - 网络库
